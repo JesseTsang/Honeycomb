@@ -1,9 +1,9 @@
 <?php //functions.php
-$dbhost  = 'localhost';    // Unlikely to require changing
-$dbname  = 'dbname';       // Modify these...
-$dbuser  = 'defaultusr';   // ...variables according
-$dbpass  = 'defaultpwd';   // ...to your installation
-$appname = "Honeycomb";    // ...and preference
+$dbhost  = 'localhost';    
+$dbname  = 'dbname';       
+$dbuser  = 'defaultusr';   
+$dbpass  = 'defaultpwd';  
+$appname = "Honeycomb";    
 
 mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error());
 mysql_select_db($dbname) or die(mysql_error());
